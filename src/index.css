@@ -1,14 +1,19 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.ui-tree-node.placeholder .ui-tree-node__inner {
+  border: 1px dashed #1385e5;
+}
+
+.ui-tree-node__inner {
+  padding: .75rem 1.25rem;
+  border: 1px solid transparent;
 }
